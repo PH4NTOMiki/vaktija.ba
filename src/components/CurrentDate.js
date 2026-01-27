@@ -1,17 +1,18 @@
 import React from "react";
 import "./CurrentDate.css";
 
+//old hijri date value date[1]
+
 function CurrentDate({ date, theme, location, locations }) {
   return (
     <p className={`current-date current-date-${theme}`}>
       {date[0]}{" "}
       <a
         className={`year year-${theme}`}
-        href={`/download/pdf/${locations[location]}_${date[1]}.pdf`}
+        href={`https://www.islamskazajednica.ba/images/download/takvim_${date[1]}.pdf`}
       >
         {date[1]}
       </a>{" "}
-      / {date[2]}
     </p>
   );
 }
