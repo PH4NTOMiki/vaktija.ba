@@ -1,6 +1,8 @@
 import React from "react";
 import "./CurrentDate.css";
 
+//old hijri date value date[1]
+
 function CurrentDate({ date, theme, location, locations }) {
   return (
     <p className={`current-date current-date-${theme}`}>
