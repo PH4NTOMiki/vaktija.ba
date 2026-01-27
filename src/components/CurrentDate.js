@@ -11,7 +11,6 @@ function CurrentDate({ date, theme, location, locations }) {
       >
         {date[1]}
       </a>{" "}
-      / {date[2]}
     </p>
   );
 }
