@@ -10,6 +10,8 @@ function CurrentDate({ date, theme, location, locations }) {
       <a
         className={`year year-${theme}`}
         href={`https://www.islamskazajednica.ba/images/download/takvim_${date[1]}.pdf`}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         {date[1]}
       </a>{" "}
